@@ -1,0 +1,75 @@
+#stuff {
+  width:80%;
+  margin: 0 auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+
+.proSub{
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: overline 0.2rem rgb(61,91,61);
+}
+.ProContainer{
+    
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+ justify-content: space-between;
+    
+    }
+
+.ProCard{
+  margin-top: 25px;
+    position: relative;
+    width:300px;
+    height: 370px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ 
+}
+.ProCard .ProProImgbox{
+    position: relative;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+
+}
+.ProCard .ProImgbox img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 80%;
+    display: block;
+    transition: 0.5s;
+
+}
+.ProCard .ProContent{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    background: rgb(24, 127, 117);
+    box-sizing: border-box;
+    overflow: hidden;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+  h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+
+  }
+  .ProCard:hover{
+    transform: scale(1.05);
+  }

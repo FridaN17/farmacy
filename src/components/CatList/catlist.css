@@ -1,0 +1,11 @@
+.catList {
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: lightblue;
+    color: black;
+}

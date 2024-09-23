@@ -1,0 +1,61 @@
+.footer {
+    background-color: rgb(35, 15, 74);
+    height: 200px;
+    color: white;
+}
+.footerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 30px;
+}
+.footerLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.frm .footerLeft :hover{
+    color:green;
+    transition: 10s;
+}
+.footerMenuItems  {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footerCenter {
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.footerContact {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.footerBrands1:hover {
+    color: rgb(57, 57, 215);
+}
+.footerBrands2:hover{
+    color:rgb(167, 115, 33)
+}
+.footerBrands3:hover{
+color:green
+}
+.footerRight {
+    flex: 1;
+}
+
+.footerLeft .footerContact .footerRight :hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+      }
+

@@ -1,0 +1,27 @@
+.top-marka{
+    background-color: rgb(46, 46, 120);
+    margin: 30px 0 ;
+    display: flex;
+
+}
+.top-brand-wrap{
+    background-color: green;
+    display: flex;
+    padding: 40 px 0;
+}
+.top-brand-box{
+background-color: rgb(46, 46, 120);
+width: 70%;
+margin: 0 auto;
+padding: 10px;
+}
+.top-brand-box img{
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    border-radius: 15%;
+
+    }
+    .top-brand-box img:hover{
+        opacity: 1;
+    }

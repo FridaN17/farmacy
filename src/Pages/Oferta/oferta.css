@@ -1,0 +1,37 @@
+.badi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+.oferta{
+    position: relative;
+
+}
+.oferta h1{
+    position: absolute;
+    
+    transform : translate(-50%,-50%) ;
+    font-size: 8rem;
+}
+.oferta .of1 :nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 2px blue;
+}
+.oferta .of1 :nth-child(2){
+    color: blue;
+    animation:animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+    0%,100%{
+        clip-path: polygon(3% 40%, 17% 40%, 29% 44%, 37% 51%, 46% 56%, 56% 58%, 65% 54%, 72% 51%, 79% 47%, 86% 40%, 94% 34%, 99% 30%, 99% 100%, 0% 99%); 
+    }
+
+
+    50% {
+        clip-path: polygon(2% 46%, 14% 56%, 25% 62%, 35% 64%, 44% 61%, 53% 60%, 61% 55%, 65% 48%, 72% 44%, 79% 41%, 87% 38%, 97% 36%, 99% 98%, 0% 99%);
+    
+    }
+}
